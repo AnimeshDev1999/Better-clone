@@ -7,7 +7,7 @@ export default function FaqSec() {
     <div className="p-[5rem]">
       <div className="flex justify-between items-baseline mb-[3.7rem]">
         <h2 className="text-5xl leading-[3.5rem] -tracking-[0.2rem] font-semibold">
-          Got questions? <br /> We've got answers
+          Got questions? <br /> We&#39;ve got answers
         </h2>
         <FaqBtn />
       </div>
