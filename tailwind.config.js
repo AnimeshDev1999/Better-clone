@@ -12,6 +12,7 @@ module.exports = {
         foreground: "var(--foreground)",
         mainShade: "#004733",
         mainTint: "#1ee07f",
+        mainTint2: "#017848",
         textLight: "#292b29",
         textLight2: "#dfe0dc",
       },

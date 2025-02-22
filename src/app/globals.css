@@ -47,4 +47,15 @@ body {
   .cust-anim2 {
     @apply transition-all ease-in-out duration-300;
   }
+
+  .helperOne::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: #e8eae6;
+    z-index: -1;
+  }
 }
