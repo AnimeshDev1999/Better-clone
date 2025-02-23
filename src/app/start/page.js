@@ -8,7 +8,7 @@ export default function Start() {
       <AltNav />
       <div className="py-16">
         <h1 className="text-5xl leading-[4rem] tracking-[-0.2rem] font-semibold text-center">
-          Hi, I'm Betsy! <br /> What can I help you with?
+          Hi, I&#39;m Betsy! <br /> What can I help you with?
         </h1>
         <StartBtns />
         {/* //////////// Stats //////////// */}

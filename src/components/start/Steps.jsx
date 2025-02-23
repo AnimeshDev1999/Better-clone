@@ -1,7 +1,7 @@
 export default function Steps() {
   return (
     <div className="flex flex-col items-center gap-4 py-4 mt-20 bg-[#F0F7F1] max-w-[550px] mx-auto">
-      <p>After a few questions, you'll unlock:</p>
+      <p>After a few questions, you&#39;ll unlock:</p>
       {/* //////////// line 1 //////////// */}
       <div className="flex">
         <svg
