@@ -84,7 +84,7 @@ export default function Hero() {
       </div>
       {/* //////////// Hero image //////////// */}
       <Image
-        src="/heroimg.webp"
+        src="/images/heroimg.webp"
         alt="Hero image"
         width={510}
         height={667}

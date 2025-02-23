@@ -15,7 +15,12 @@ export default function QuoteSec() {
           See all our stories
         </button>
         <div className="flex mt-3 items-baseline">
-          <Image src="/greenstar.svg" alt="quote" width={20} height={20} />
+          <Image
+            src="/images/greenstar.svg"
+            alt="quote"
+            width={20}
+            height={20}
+          />
           &nbsp;
           <p className="font-semibold">Trustpilot</p>&nbsp;&nbsp;
           <p className="font-semibold text-textLight">Excellent</p>&nbsp;&nbsp;

@@ -30,9 +30,14 @@ export default function AbtMain() {
           </button>
         </div>
         <div className="relative">
-          <Image src="/mission.jpg" alt="mission" width={400} height={400} />
           <Image
-            src="/playbtn.svg"
+            src="/images/mission.jpg"
+            alt="mission"
+            width={400}
+            height={400}
+          />
+          <Image
+            src="/images/playbtn.svg"
             alt="play"
             width={100}
             height={100}

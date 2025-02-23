@@ -13,7 +13,7 @@ export default function FaqCard2(props) {
         </h3>
         <p className="text-sm text-textLight">{props.text}</p>
         <div className="p-3 rounded-full border-[1px] border-slate-500/50">
-          <Image src="/rarr.svg" alt="rarr" width={22} height={22} />
+          <Image src="/images/rarr.svg" alt="rarr" width={22} height={22} />
         </div>
       </div>
       <Image src={props.img} alt="faq1" width={285} height={285} />

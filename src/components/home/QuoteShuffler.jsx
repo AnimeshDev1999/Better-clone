@@ -8,7 +8,7 @@ export default function QuoteShuffler() {
     <div>
       <Image
         className="rounded-2xl"
-        src={`/quote${quote}.webp`}
+        src={`/images/quote${quote}.webp`}
         alt="quote"
         width={340}
         height={600}

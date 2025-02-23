@@ -7,7 +7,7 @@ export default function FaqCard(props) {
         {props.heading}
       </h3>
       <div className="p-3 rounded-full border-[1px] border-slate-500/50">
-        <Image src="/rarr.svg" alt="rarr" width={22} height={22} />
+        <Image src="/images/rarr.svg" alt="rarr" width={22} height={22} />
       </div>
       <Image src={props.img} alt="faq1" width={500} height={500} />
     </div>
