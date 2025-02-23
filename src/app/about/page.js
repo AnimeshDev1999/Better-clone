@@ -1,6 +1,6 @@
-import AbtMain from "@/components/AbtMain";
-import { Partners } from "@/components/Partners";
-import Timeline from "@/components/Timeline";
+import AbtMain from "@/components/about/AbtMain";
+import { Partners } from "@/components/about/Partners";
+import Timeline from "@/components/about/Timeline";
 
 export default function About() {
   return (

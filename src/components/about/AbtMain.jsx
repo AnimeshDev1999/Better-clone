@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AbtMain() {
   return (
     <div className="px-[15rem] py-[8rem]">
-      <div className="mb-[8rem]">
+      <div className="mb-[15rem]">
         <h1 className="text-center text-3xl font-semibold text-[#017848] mb-8">
           Our mission
         </h1>
