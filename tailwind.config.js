@@ -13,6 +13,7 @@ module.exports = {
         mainShade: "#004733",
         mainTint: "#1ee07f",
         mainTint2: "#017848",
+        mainTint3: "#F0F7F1",
         textLight: "#292b29",
         textLight2: "#dfe0dc",
       },

@@ -37,7 +37,7 @@ export default function AbtMain() {
             height={400}
           />
           <Image
-            src="/images/playbtn.svg"
+            src="/icons/playbtn.svg"
             alt="play"
             width={100}
             height={100}

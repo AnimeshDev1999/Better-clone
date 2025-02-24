@@ -16,7 +16,7 @@ export default function QuoteSec() {
         </button>
         <div className="flex mt-3 items-baseline">
           <Image
-            src="/images/greenstar.svg"
+            src="/icons/greenstar.svg"
             alt="quote"
             width={20}
             height={20}

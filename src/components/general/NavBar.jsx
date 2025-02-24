@@ -41,7 +41,7 @@ export default function NavBar() {
             ></path>
           </svg>
           {/* //////////// Call tooltip //////////// */}
-          <p className="absolute hidden group-hover:block top-[120%] right-1 bg-white min-w-[320px] text-center px-10 py-7 shadow-md rounded-lg">
+          <p className="absolute hidden group-hover:block top-[120%] z-10 right-1 bg-white min-w-[320px] text-center px-10 py-7 shadow-md rounded-lg">
             Call us anytime at{" "}
             <a
               className="underline hover:text-textHighlight"
