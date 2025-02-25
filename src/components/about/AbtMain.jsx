@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function AbtMain() {
   return (
-    <div className="px-[15rem] py-[8rem]">
+    <div className="md:px-[15rem] py-[8rem]">
       <div className="mb-[15rem]">
-        <h1 className="text-center text-3xl font-semibold text-[#017848] mb-8">
+        <h1 className="text-center text-2xl md:text-3xl font-semibold text-[#017848] mb-8">
           Our mission
         </h1>
-        <h2 className="text-center text-5xl mx-auto font-semibold leading-[3.8rem] -tracking-[0.2rem]">
+        <h2 className="text-center text-3xl md:text-5xl mx-auto font-semibold leading-[2.5rem] -tracking-[0rem] md:leading-[3.2rem] md:-tracking-[-0.1rem]">
           We&#39;re making homeownership simpler, faster — and most importantly,
           more accessible for all Americans.
         </h2>
       </div>
-      <div className="grid grid-cols-2 gap-[8rem]">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 px-5 md:px-0 gap-[8rem]">
+        <div className="order-2 md:order-1">
           <h3 className="mb-6 text-3xl font-semibold">
             The status quo is broken
           </h3>
@@ -29,7 +29,7 @@ export default function AbtMain() {
             Read Vishal&#39;s story
           </button>
         </div>
-        <div className="relative">
+        <div className="relative order-1 md:order-2">
           <Image
             src="/images/mission.jpg"
             alt="mission"

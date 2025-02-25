@@ -5,7 +5,7 @@ import MoreCard from "./MoreCard";
 
 export default function HowSec() {
   return (
-    <div className="mt-20 px-24">
+    <div className="mt-20 px-10 md:px-24">
       {/* //////////// Notes //////////// */}
       <Divider />
       <h2 className="text-[2rem] font-semibold tracking-[-0.1rem] mb-10">

@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function QuoteShuffler() {
   const [quote, setQuote] = useState("1");
   return (
-    <div>
+    <div className="flex flex-col-reverse md:flex-col">
       <Image
         className="rounded-2xl"
         src={`/images/quote${quote}.webp`}
@@ -13,7 +13,7 @@ export default function QuoteShuffler() {
         width={340}
         height={600}
       />
-      <div className="flex gap-4 mt-6">
+      <div className="flex gap-4 mt-6 mb-5 md:mb-0">
         <button
           className={`shuffle-btn ${quote === "1" ? "shuffle-act" : ""}`}
           onClick={() => {

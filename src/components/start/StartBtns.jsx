@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function StartBtns() {
   return (
-    <div className="max-w-[550px] mx-auto flex flex-col gap-6 mt-4">
+    <div className="max-w-[550px] mx-auto px-10 md:px-0 flex flex-col gap-6 mt-4">
       {/* //////////// Bttn 1 //////////// */}
       <button className="start-btn">
         <Image src="/icons/start1.svg" alt="start1" width={36} height={36} />

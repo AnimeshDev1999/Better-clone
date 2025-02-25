@@ -1,7 +1,7 @@
 export default function MortgageCalc() {
   return (
-    <div className="py-16 px-24 bg-mainTint3">
-      <h2 className="text-5xl font-semibold tracking-[-0.2rem]">
+    <div className="py-16 px-10 md:px-24 bg-mainTint3">
+      <h2 className="text-3xl md:text-5xl font-semibold tracking-[-0.1rem] md:tracking-[-0.2rem]">
         Mortgage Calculator
       </h2>
       <p className="my-6 pb-4">
@@ -10,26 +10,26 @@ export default function MortgageCalc() {
         whole picture and calculate your total monthly payment.
       </p>
       {/* //////////// Price display //////////// */}
-      <div className="grid grid-cols-5 gap-14 mb-6">
-        <div className="col-span-2">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-14 mb-6">
+        <div className="col-span-1 md:col-span-2">
           <p className="font-semibold mb-4">Home price</p>
           <input
             type="text"
             placeholder={"$50,000"}
-            className="text-[2.8rem] font-semibold px-3 py-1 max-w-[290px] border-[1px] border-slate-500/50 rounded-md"
+            className="text-[1.8rem] md:text-[2.8rem] font-semibold px-3 py-1 max-w-[150px] md:max-w-[290px] border-[1px] border-slate-500/50 rounded-md"
           />
         </div>
-        <div className="col-span-2">
+        <div className="col-span-1 md:col-span-2">
           <p className="font-semibold mb-4">Monthly payment</p>
           <p
             type="text"
             placeholder={"$50,000"}
-            className="text-[2.8rem] font-semibold px-3 py-1 max-w-[290px]"
+            className="text-[1.8rem] md:text-[2.8rem] font-semibold px-3 py-1 max-w-[150px] md:max-w-[290px]"
           >
             $880/mo
           </p>
         </div>
-        <div className="flex items-end ">
+        <div className="md:flex items-end hidden">
           <button className="font-semibold w-full text-background rounded-lg bg-mainTint2 h-fit py-5">
             Get pre-approved
           </button>
@@ -40,7 +40,17 @@ export default function MortgageCalc() {
         type="range"
         className="w-full h-1 rounded-full outline-none cursor-pointer accent-[#292B29] m-6"
       />
-      <div className="flex gap-[7.5rem] mt-6 mb-4">
+      <div className="md:hidden items-end">
+        <button className="font-semibold w-full text-background rounded-lg bg-mainTint2 h-fit py-5">
+          Get pre-approved
+        </button>
+      </div>
+      <div className="md:hidden items-end mt-5">
+        <button className="font-semibold w-full border-2 border-slate-500/50 rounded-lg text-foreground h-fit py-5">
+          Get pre-approved
+        </button>
+      </div>
+      <div className="gap-[7.5rem] mt-6 mb-4 hidden md:flex">
         {/* //////////// left column //////////// */}
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-background p-3 border-[1px] border-slate-500/50 rounded-md">

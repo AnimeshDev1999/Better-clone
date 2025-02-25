@@ -7,8 +7,8 @@ export default function About() {
     <>
       <AbtMain />
       {/* //////////// How section //////////// */}
-      <div className="bg-[#017848] text-background px-[15rem] py-[5rem]">
-        <h2 className="text-5xl mx-auto font-semibold leading-[3.8rem] -tracking-[0.2rem] mb-8">
+      <div className="bg-[#017848] text-background px-[5rem] md:px-[15rem] py-[5rem]">
+        <h2 className="text-3xl md:text-5xl mx-auto font-semibold leading-[2.5rem] -tracking-[0.1rem] md:leading-[3.8rem] md:-tracking-[0.2rem] mb-8">
           How we&#39;re changing things
         </h2>
         <p className="mb-4">

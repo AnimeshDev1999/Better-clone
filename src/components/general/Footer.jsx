@@ -7,19 +7,18 @@ import {
   footerData5,
 } from "@/app/_lib/siteData";
 import { lowerFootData, lowerFootData2 } from "@/app/_lib/siteData2";
-import FooterSocials from "./FooterSocials";
 import Divider from "./Divider";
 import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="px-40 py-6">
+    <div className="md:px-40 px-[1.5rem] py-6">
       {/* //////////// Logo //////////// */}
       <Image src="/icons/logogreen.svg" alt="logo" width={85} height={35} />
       {/* //////////// Footer grid //////////// */}
-      <div className="grid grid-cols-5 gap-16 py-8 mb-[11rem]">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-16 py-8 mb-[11rem]">
         {/* //////////// column 1 //////////// */}
-        <div className="col-span-2 flex flex-col gap-4">
+        <div className="md:col-span-2 flex flex-col gap-4">
           <p className="text-textLight">
             Better is a family of companies serving all your homeownership
             needs.

@@ -2,14 +2,14 @@ import Utility from "./Utility";
 
 export default function PaymentBreakdown() {
   return (
-    <div className="mt-20 px-24 grid grid-cols-2">
+    <div className="mt-20 px-10 md:px-24 grid grid-cols-1 md:grid-cols-2">
       {/* //////////// Column 1 //////////// */}
       <div>
         <h2 className="text-lg font-semibold mb-6">
           Monthly payment breakdown
         </h2>
         <p className="text-5xl font-semibold">$2,146/mo</p>
-        <div className="flex h-20 w-[80%] my-[4rem]">
+        <div className="flex h-20 md:w-[80%] my-[4rem]">
           <div className="graph bg-[#017848] w-[70%] h-[100%]"></div>
           <div className="graph bg-[#6E4CF6] w-[13%] h-[100%]"></div>
           <div className="graph bg-[#8E8EEB] w-[6%] h-[100%]"></div>
@@ -79,7 +79,7 @@ export default function PaymentBreakdown() {
         {/* //////////// Row 5 //////////// */}
         <Utility />
         {/* //////////// Row 6 //////////// */}
-        <button className="w-fit px-10 py-4 bg-[#E0E1DD] font-semibold rounded-lg">
+        <button className="w-full md:w-fit col-span-2 md:col-span-1 px-10 py-4 bg-[#E0E1DD] font-semibold rounded-lg">
           Copy estimate link
         </button>
       </div>

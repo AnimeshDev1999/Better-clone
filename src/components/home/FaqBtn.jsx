@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function FaqBtn() {
   const [tab, setTab] = useState("1");
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-6 flex-wrap">
       <button
         className={`shuffle-btn ${tab === "1" ? "shuffle-act" : ""}`}
         onClick={() => {

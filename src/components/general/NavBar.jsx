@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <div className="flex items-center text-white justify-between py-5 px-16 bg-[#004733]">
+    <div className="flex items-center text-white justify-between px-5 py-4 md:py-5 md:px-16 bg-[#004733]">
       {/* //////////// Logo //////////// */}
       <div className="flex items-center gap-8">
         <svg
@@ -18,20 +18,20 @@ export default function NavBar() {
             fill="currentColor"
           ></path>
         </svg>
-        <button className="nav-btn">Buy</button>
-        <button className="nav-btn">Refinance</button>
-        <button className="nav-btn">HELOC</button>
-        <button className="nav-btn">Rates</button>
-        <button className="nav-btn">Better+</button>
+        <button className="nav-btn hidden md:block">Buy</button>
+        <button className="nav-btn hidden md:block">Refinance</button>
+        <button className="nav-btn hidden md:block">HELOC</button>
+        <button className="nav-btn hidden md:block">Rates</button>
+        <button className="nav-btn hidden md:block">Better+</button>
       </div>
-      <div className="flex justify-center items-center gap-6">
+      <div className="flex justify-center items-center md:gap-6 gap-3">
         {/* //////////// Call icon //////////// */}
-        <div className="p-[14px] group border-[--background] relative border-[1px] rounded-full hover:text-[--foreground] hover:bg-[--background] transition-all ease-in-out duration-300">
+        <div className="p-[8px] md:p-[14px] group border-[--background] relative border-[1px] rounded-full hover:text-[--foreground] hover:bg-[--background] transition-all ease-in-out duration-300">
           <svg
             width="19"
             height="18"
             viewBox="0 0 19 18"
-            className="h-4 w-4"
+            className="md:h-4 md:w-4 h-3 w-3"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -52,7 +52,7 @@ export default function NavBar() {
           </p>
         </div>
         {/* //////////// Signin btn //////////// */}
-        <button className="nav-btn">Sign in</button>
+        <button className="nav-btn hidden md:block">Sign in</button>
         {/* //////////// Menu icon //////////// */}
         <div className="lg:hidden">
           <svg
