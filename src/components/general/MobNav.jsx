@@ -5,7 +5,7 @@ export default function MobNav(props) {
   return (
     <div
       className={`absolute text-foreground cust-anim top-0 w-screen h-screen bg-background z-[100] p-6 ${
-        props.active ? "left-0" : "left-[-100%]"
+        props.active ? "left-0" : "left-[-120%]"
       }`}
     >
       <div className="flex justify-between px-2">
