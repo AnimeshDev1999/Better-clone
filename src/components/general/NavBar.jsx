@@ -1,6 +1,26 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 export default function NavBar() {
+  const [header, setHeader] = useState(false);
+  const scrollHandler = () => {
+    if (window.scrollY >= 1000) {
+      setHeader(true);
+    } else {
+      setHeader(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.addEventListener("scroll", scrollHandler);
+  });
   return (
-    <div className="flex items-center text-white justify-between px-5 py-4 md:py-5 md:px-16 bg-[#004733]">
+    <div
+      className={`flex sticky z-30 top-0 left-0 items-center justify-between px-5 py-4 md:py-5 md:px-16 ${
+        header ? "bg-[#eee] text-foreground" : "bg-[#004733] text-background"
+      }`}
+    >
       {/* //////////// Logo //////////// */}
       <div className="flex items-center gap-8">
         <svg
