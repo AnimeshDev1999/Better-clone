@@ -20,7 +20,7 @@ export default function NavBar() {
   });
   return (
     <div
-      className={`flex sticky z-30 top-0 left-0 items-center justify-between px-5 py-4 md:py-5 md:px-16 ${
+      className={`flex sticky z-30 top-0 left-0 items-center justify-between px-5 py-4 lg:py-5 lg:px-16 ${
         header ? "bg-[#eee] text-foreground" : "bg-[#004733] text-background"
       }`}
     >
@@ -44,26 +44,26 @@ export default function NavBar() {
             ></path>
           </svg>
         </Link>
-        <Link href="/about" className="nav-btn hidden md:block">
+        <Link href="/about" className="nav-btn hidden lg:block">
           About
         </Link>
-        <Link href="/start" className="nav-btn hidden md:block">
+        <Link href="/start" className="nav-btn hidden lg:block">
           Get Started
         </Link>
-        <Link href="/calc" className="nav-btn hidden md:block">
+        <Link href="/calc" className="nav-btn hidden lg:block">
           Mortgage Calc
         </Link>
-        <button className="nav-btn hidden md:block">Rates</button>
-        <button className="nav-btn hidden md:block">Better+</button>
+        <button className="nav-btn hidden lg:block">Rates</button>
+        <button className="nav-btn hidden lg:block">Better+</button>
       </div>
-      <div className="flex justify-center items-center md:gap-6 gap-3">
+      <div className="flex justify-center items-center lg:gap-6 gap-3">
         {/* //////////// Call icon //////////// */}
-        <div className="p-[8px] md:p-[14px] group border-[--background] relative border-[1px] rounded-full hover:text-[--foreground] hover:bg-[--background] transition-all ease-in-out duration-300">
+        <div className="p-[8px] lg:p-[14px] group border-[--background] relative border-[1px] rounded-full hover:text-[--foreground] hover:bg-[--background] transition-all ease-in-out duration-300">
           <svg
             width="19"
             height="18"
             viewBox="0 0 19 18"
-            className="md:h-4 md:w-4 h-3 w-3"
+            className="lg:h-4 lg:w-4 h-3 w-3"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -84,7 +84,7 @@ export default function NavBar() {
           </p>
         </div>
         {/* //////////// Signin btn //////////// */}
-        <button className="nav-btn hidden md:block">Sign in</button>
+        <button className="nav-btn hidden lg:block">Sign in</button>
         {/* //////////// Menu icon //////////// */}
         <button onClick={() => setOpen(!open)} className="lg:hidden">
           <svg

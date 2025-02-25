@@ -22,7 +22,7 @@ export default function Table() {
             {row1.map((item, index) => (
               <th
                 key={index}
-                className="border border-strokeInverseBorder text-center bg-mainShade px-2 py-3 md:px-4"
+                className="border border-strokeInverseBorder text-center bg-mainShade px-2 py-3 lg:px-4"
               >
                 <p className="leading-body m-0 p-0 text-sm text-center text-background font-bold">
                   {item}
@@ -37,7 +37,7 @@ export default function Table() {
             {row2.map((item, index) => (
               <td
                 key={index}
-                className="border border-successAccent text-center px-2 py-3 md:px-4"
+                className="border border-successAccent text-center px-2 py-3 lg:px-4"
               >
                 <p className="font-normal leading-body m-0 p-0 text-sm text-center text-textSecondary">
                   {item}
@@ -50,7 +50,7 @@ export default function Table() {
             {row3.map((item, index) => (
               <td
                 key={index}
-                className="border border-successAccent text-center px-2 py-3 md:px-4"
+                className="border border-successAccent text-center px-2 py-3 lg:px-4"
               >
                 <p className="font-normal leading-body m-0 p-0 text-sm text-center text-textSecondary">
                   {item}
@@ -63,7 +63,7 @@ export default function Table() {
             {row4.map((item, index) => (
               <td
                 key={index}
-                className="border border-successAccent text-center px-2 py-3 md:px-4"
+                className="border border-successAccent text-center px-2 py-3 lg:px-4"
               >
                 <p className="font-normal leading-body m-0 p-0 text-sm text-center text-textSecondary">
                   {item}
@@ -76,7 +76,7 @@ export default function Table() {
             {row5.map((item, index) => (
               <td
                 key={index}
-                className="border border-successAccent text-center px-2 py-3 md:px-4"
+                className="border border-successAccent text-center px-2 py-3 lg:px-4"
               >
                 <p className="font-normal leading-body m-0 p-0 text-sm text-center text-textSecondary">
                   {item}
@@ -86,7 +86,7 @@ export default function Table() {
           </tr>
         </tbody>
       </table>
-      <div className="hidden md:group-hover:block absolute w-full h-full bg-black opacity-25 top-0 left-0"></div>
+      <div className="hidden lg:group-hover:block absolute w-full h-full bg-black opacity-25 top-0 left-0"></div>
     </div>
   );
 }

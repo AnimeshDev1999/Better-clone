@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Steps() {
   return (
-    <div className="flex flex-col items-center rounded-lg gap-4 py-4 mt-20 bg-[#F0F7F1] max-w-[550px] mx-10 md:mx-auto">
+    <div className="flex flex-col items-center rounded-lg gap-4 py-4 mt-20 bg-[#F0F7F1] max-w-[550px] mx-10 lg:mx-auto">
       <p>After a few questions, you&#39;ll unlock:</p>
       <div className="grid grid-cols-4 gap-4">
         {/* //////////// line 1 //////////// */}

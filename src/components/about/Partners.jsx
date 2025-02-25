@@ -6,7 +6,7 @@ export const Partners = () => {
       <h2 className="text-3xl mx-auto font-semibold leading-[3.8rem] text-center -tracking-[0.1rem] mb-[5rem]">
         Backed by
       </h2>
-      <div className="flex flex-col md:flex-row items-center justify-around">
+      <div className="flex flex-col lg:flex-row items-center justify-around">
         {/* //////////// logo 1 //////////// */}
         <Image src="/icons/client1.svg" alt="client1" width={154} height={90} />
         {/* //////////// logo 2 //////////// */}

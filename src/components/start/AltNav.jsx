@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AltNav() {
   return (
-    <div className="max-w-[1210px] mx-auto flex justify-between relative py-6 px-6 md:px-0 border-b-4 border-b-[#E8EAE6]">
+    <div className="max-w-[1210px] mx-auto flex justify-between relative py-6 px-6 lg:px-0 border-b-4 border-b-[#E8EAE6]">
       <div>
         <svg
           role="img"
@@ -39,7 +39,7 @@ export default function AltNav() {
             ></path>
           </svg>
         </div>
-        <p className="font-semibold hidden md:block">
+        <p className="font-semibold hidden lg:block">
           Need help? Call (415) 523 8837
         </p>
       </div>

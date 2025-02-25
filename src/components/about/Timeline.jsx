@@ -20,7 +20,7 @@ export default function Timeline() {
           ) : (
             <p
               key={index}
-              className={`p-10 my-6 bg-[#DFE0DC] max-w-[150px] md:max-w-[400px] rounded-md ${
+              className={`p-10 my-6 bg-[#DFE0DC] max-w-[150px] lg:max-w-[400px] rounded-md ${
                 invIndex.includes(index) === true
                   ? "translate-x-[55%]"
                   : "-translate-x-[55%]"

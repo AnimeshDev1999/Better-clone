@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <div className="bg-mainShade relative z-0">
       {/* //////////// Heading //////////// */}
-      <h1 className="text-mainTint text-[3rem] md:text-[7.3rem] py-[1.8rem] md:py-[7.5rem] leading-[3.5rem] md:leading-[8rem] tracking-tight font-semibold text-center ">
+      <h1 className="text-mainTint text-[3rem] lg:text-[7.3rem] py-[1.8rem] lg:py-[7.5rem] leading-[3.5rem] lg:leading-[8rem] tracking-tight font-semibold text-center ">
         Mortgages <br /> made simple
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[12rem] md:gap-0 pb-[19.5rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[12rem] lg:gap-0 pb-[19.5rem]">
         {/* //////////// Cta btn //////////// */}
         <div className="flex flex-col items-center">
           <button className="bg-mainTint hover:bg-mainShade hover:text-background transition-all ease-in-out duration-200 text-foreground font-semibold rounded-full px-12 py-5">
@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
         </div>
         {/* //////////// Google ratings //////////// */}
-        <div className="flex flex-col opacity-0 md:opacity-100 items-center">
+        <div className="flex flex-col opacity-0 lg:opacity-100 items-center">
           <div className="flex gap-2 items-center">
             <Image
               src="/icons/google.svg"
@@ -58,7 +58,7 @@ export default function Hero() {
         height={667}
         className="absolute bottom-0 left-1/2 -translate-x-1/2 z-[-1]"
       />
-      <div className="flex flex-col md:opacity-0 bg-[#073126] w-fit p-2 rounded-md absolute bottom-8 left-1/2 -translate-x-1/2 opacity-100 items-center">
+      <div className="flex flex-col lg:opacity-0 bg-[#073126] w-fit p-2 rounded-md absolute bottom-8 left-1/2 -translate-x-1/2 opacity-100 items-center">
         <div className="flex gap-2 items-center">
           <Image src="/icons/google.svg" alt="google" width={24} height={24} />
           <div className="flex">

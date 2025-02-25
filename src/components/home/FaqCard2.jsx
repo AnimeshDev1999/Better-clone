@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function FaqCard2(props) {
   return (
     <div
-      className={`bg-[#f0f7f1] hidden rounded-lg px-12 py-9 col-span-2 md:flex gap-[2.5rem] ${
+      className={`bg-[#f0f7f1] hidden rounded-lg px-12 py-9 col-span-2 lg:flex gap-[2.5rem] ${
         props.inv === "true" && "flex-row-reverse"
       }`}
     >
